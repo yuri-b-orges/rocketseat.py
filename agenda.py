@@ -4,7 +4,7 @@ def adicionar_contato(contatos):
     nome = input("Nome do contato: ")
     telefone = input("Telefone do contato: ")
     email = input("Email do contato: ")
-    favorito = input("Marcar como favorito? (sim/não): ").lower() == "sim"
+    favorito = input("Marcar como favorito? (Sim/Não): ").lower() == "sim"
 
     contato = {
         "nome": nome,
